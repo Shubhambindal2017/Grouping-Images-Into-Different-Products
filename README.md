@@ -17,11 +17,11 @@ Maximum Average Sihouette score: [MASs]
 
 ```
 
-**So it is clear that the if num of clusters = 7 and trained the model using ResNet50, it gives best max average sihouette score (0.31846266984939575) so far and for both Kmeans and AgglomerativeClustering it is same, so can use any one of them, To cluster and group images I used AgglomerativeClustering.**
+**So it is clear that the if num of clusters = 7 and trained the model using ResNet50, it gives best max average sihouette score (0.31846266984939575) so far and for both Kmeans and AgglomerativeClustering it is same, so we can use any one of them, To cluster and group images I used AgglomerativeClustering.**
 
-Created 2 py files utils.py which has functions to extract features from an image given a pre-trained model, and used to get pre-trained models and predictions from a clustering method while sihouette_scores.py plots the average sihouette scores and return the max avg sihouetter score and its corresponding number of clusters.
+Created 2 py files, utils.py which has functions to extract features from an image given a pre-trained model, and used to get pre-trained models and predictions from a clustering method while sihouette_scores.py plots the average sihouette scores and return the max average sihouette score and its corresponding number of clusters.
 
-Both of these py files are used by Driver notebook, which performs all the experiments explained above, used the AgglomerativeClustering to make 7 clusters using the features extracted by ResNet50 and then with the help of this, group images into different products and then stores them accordingly in the Products folder.
+Both of these py files are used by Driver notebook, which performs all the experiments explained above, then used the AgglomerativeClustering to make 7 clusters using the features extracted by ResNet50 and then with the help of this make predictions and group images into different products and then stores them accordingly in the Products folder.
 
 
 
