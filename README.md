@@ -1,6 +1,6 @@
 # Grouping Images Into Different Products
 #### Motivation Behind the used approach
-I wasn't able to found any dataset for the desired problem on which I can train a full-classifier or a classifier by fine-tuning a pre-trained classifier.
+I wasn't able to found any dataset for the desired problem (considering the given dataset) on which I can train a full-classifier or a classifier by fine-tuning a pre-trained classifier.
 #### Approach Used : Image Clustering Using Transfer Learning
 - Image Clustering using by simply flattening the image and passing it to clustering algorithm doesn't preseve image features.
 - Instead, Convolutional Neural Networks preserves important characteristics of an image, CNN layers detects pixels, edges, text, parts, objects in the image, thereby preserving all the important features of an image.
