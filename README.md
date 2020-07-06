@@ -1,4 +1,4 @@
-# Grouping The Images Into Different Products
+# Grouping Images Into Different Products
 #### Motivation Behind the used approach
 I wasn't able to found any dataset for the desired problem on which I can train a full-classifier or a classifier by fine-tuning a pre-trained classifier.
 #### Approach Used : Image Clustering Using Transfer Learning
